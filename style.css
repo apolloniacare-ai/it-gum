@@ -118,6 +118,7 @@ body {
 .btn-text {
     position: relative;
     z-index: 2;
+    pointer-events: none;
 }
 
 /* Interaction: Hover Scale & Shadow */
@@ -149,6 +150,7 @@ body {
     );
     transform: skewX(-25deg);
     z-index: 1;
+    pointer-events: none;
 }
 
 /* Trigger animation on hover and touch */
